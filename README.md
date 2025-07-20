@@ -37,15 +37,20 @@ It finds the best way to split a list of product prices into baskets, so that th
 ## Example Output
 
 ```
-Basket 1: ['400.00', '300.99', '200.50', '100.00']
-  Total before discount: 1001.49 PLN
-  Total after discount:  881.49 PLN
-  Discount:              120.00 PLN
+Basket 1: ['100.00', '200.50']
+  Total before discount: 300.50 PLN
+  Total after discount:  270.50 PLN
+  Discount:              30.00 PLN
+
+Basket 2: ['300.99', '400.00']
+  Total before discount: 700.99 PLN
+  Total after discount:  610.69 PLN
+  Discount:              90.30 PLN
 
 Summary:
   Total before discount: 1001.49 PLN
-  Total after discount:  881.49 PLN
-  Total discount:        120.00 PLN
+  Total after discount:  881.19 PLN
+  Total discount:        120.30 PLN
 ```
 
 ## How it works
